@@ -7,6 +7,7 @@ import {
 import './index.css'
 import Root from './routes/root.tsx'
 import Day1 from './routes/pages/day_1.tsx'
+import Day2 from './routes/pages/day_2.tsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/day-1",
     element: <Day1/>
+  }, 
+  {
+    path: "/day-2",
+    element: <Day2/>
   }
 ])
 
